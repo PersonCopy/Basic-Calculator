@@ -70,6 +70,7 @@ namespace Nutzvoller_Taschenrechner
             nine.IsEnabled = true;
             displayRes();
         }
+        //test commit
 
         private void OktButton_Checked(object sender, RoutedEventArgs e)
         {
