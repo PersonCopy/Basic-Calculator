@@ -1,0 +1,15 @@
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\bin\Debug\Nutzvoller Taschenrechner.exe.config
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\bin\Debug\Nutzvoller Taschenrechner.exe
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\bin\Debug\Nutzvoller Taschenrechner.pdb
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner.csprojAssemblyReference.cache
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\MainWindow.g.cs
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\App.g.cs
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner_MarkupCompile.cache
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner_MarkupCompile.lref
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\MainWindow.baml
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner.g.resources
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller_Taschenrechner.Properties.Resources.resources
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner.csproj.GenerateResource.cache
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner.csproj.CoreCompileInputs.cache
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner.exe
+C:\Users\benja\Desktop\GIBZ Aufgaben\M404\Nutzvoller Taschenrechner\Nutzvoller Taschenrechner\obj\Debug\Nutzvoller Taschenrechner.pdb

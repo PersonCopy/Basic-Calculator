@@ -1,0 +1,61 @@
+﻿<Window x:Class="Nutzvoller_Taschenrechner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nutzvoller_Taschenrechner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.ColumnSpan="6" Margin="5" Name="ResultatBox" Background="LightBlue"></TextBox>
+        <!--radio Buttons-->
+        <RadioButton GroupName="NumType" Grid.Row="1" Name="dezButton" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Checked="DezButton_Checked">dez</RadioButton>
+        <RadioButton GroupName="NumType" Grid.Row="2" Name="hexButton" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Checked="HexButton_Checked">hex</RadioButton>
+        <RadioButton GroupName="NumType" Grid.Row="3" Name="oktButton" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Checked="OktButton_Checked">okt</RadioButton>
+        <RadioButton GroupName="NumType" Grid.Row="4" Name="binButton" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Checked="BinButton_Checked">bin</RadioButton>
+        
+        <!--Hex Numbers over 9-->
+        <Button Margin="5" Grid.Column="1" Grid.Row="1" Name="aButton" FontSize="20" Click="AButton_Click">A</Button>
+        <Button Margin="5" Grid.Column="1" Grid.Row="2" Name="bButton" FontSize="20" Click="BButton_Click">B</Button>
+        <Button Margin="5" Grid.Column="1" Grid.Row="3" Name="cButton" FontSize="20" Click="CButton_Click">C</Button>
+        <Button Margin="5" Grid.Column="1" Grid.Row="4" Name="dButton" FontSize="20" Click="DButton_Click">D</Button>
+        <Button Margin="5" Grid.Column="1" Grid.Row="5" Name="eButton" FontSize="20" Click="EButton_Click">E</Button>
+        <Button Margin="5" Grid.Column="1" Grid.Row="6" Name="fButton" FontSize="20" Click="FButton_Click">F</Button>
+        <!--normal numbers-->
+        <Button Margin="5" Grid.Column="2" Grid.Row="1" Name="seven" FontSize="20" Click="Seven_Click">7</Button>
+        <Button Margin="5" Grid.Column="3" Grid.Row="1" Name="eight" FontSize="20" Click="Eight_Click">8</Button>
+        <Button Margin="5" Grid.Column="4" Grid.Row="1" Name="nine" FontSize="20" RenderTransformOrigin="0.5,0.504" Click="Nine_Click">9</Button>
+        <Button Margin="5" Grid.Column="2" Grid.Row="2" Name="four" FontSize="20" Click="Four_Click">4</Button>
+        <Button Margin="5" Grid.Column="3" Grid.Row="2" Name="five" FontSize="20" Click="Five_Click">5</Button>
+        <Button Margin="5" Grid.Column="4" Grid.Row="2" Name="six" FontSize="20" Click="Six_Click">6</Button>
+        <Button Margin="5" Grid.Column="2" Grid.Row="3" Name="one" FontSize="20" Click="One_Click">1</Button>
+        <Button Margin="5" Grid.Column="3" Grid.Row="3" Name="two" FontSize="20" Click="Two_Click">2</Button>
+        <Button Margin="5" Grid.Column="4" Grid.Row="3" Name="three" FontSize="20" Click="Three_Click">3</Button>
+        <Button Margin="5" Grid.Column="2" Grid.Row="4" Name="zero" FontSize="20" Click="Zero_Click">0</Button>
+        <!--operators-->
+        <Button Margin="5" Grid.Column="5" Grid.Row="1" Name="divButton" FontSize="20" Click="DivButton_Click">/</Button>
+        <Button Margin="5" Grid.Column="5" Grid.Row="2" Name="mulButton" FontSize="20" Click="MulButton_Click">*</Button>
+        <Button Margin="5" Grid.Column="5" Grid.Row="3" Name="minButton" FontSize="20" Click="MinButton_Click">-</Button>
+        <Button Margin="5" Grid.Column="5" Grid.Row="4" Name="plusButton" FontSize="20" Click="PlusButton_Click">+</Button>
+        <Button Margin="5" Grid.Column="5" Grid.Row="5" Name="equalsButton" FontSize="20" Click="EqualsButton_Click">=</Button>
+        <Button Margin="5" Grid.Column="4" Grid.Row="4" Name="clear" FontSize="20" Click="Clear_Click">Clr</Button>
+
+    </Grid>
+</Window>
